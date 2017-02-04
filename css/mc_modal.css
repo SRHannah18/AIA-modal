@@ -1,0 +1,194 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	
+	font-family: United Sans SemiCond;
+	text-align: center;
+	
+}
+
+
+.mc-h1{
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+.mc-label{
+	display: block;
+	text-align: left;
+	font-size: 24px;
+	font-family: United Sans SemiCond;
+	font-weight: bold;
+
+}
+
+.mc-dimmer {
+	background: black;
+	opacity: 0.5;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+#mc_embed_signup{
+	
+	background-image: url('/img/aiamodalback.jpg');
+	background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-size: 230%;
+    padding-top: 170px;
+    color: white;
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    margin-left: -45%;
+    height: auto;
+    top: 50%;
+   	-ms-transform: translateY(-50%);
+   	-webkit-transform: translateY(-50%);
+   	-moz-transform: translateY(-50%);
+   	-o-transform: tranlslateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.mc-form{
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+.mc-field-group{
+
+	width:90%;
+	margin: 0 auto;
+
+}
+
+.mc-email-address{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 2rem;
+	font-family: United Sans SemiCond;
+	font-size: 16px;
+}
+
+.modal-logo{
+	position: absolute;
+	top:1em;
+	left: 1em;
+	width: 50%;
+
+}
+
+.close-btn{
+	color: #CCCCCC;
+	display: block;
+	font-size: 72px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.close-btn:hover{
+	color: red;
+}
+
+.mc-btn{
+	color: white;
+}
+
+.mc-btn-submit{
+	color: white;
+	font-size: 24px;
+	font-weight: bolder;
+	background-color: #575A5C;
+	border-radius: 3px;
+	border: none;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-family: United Sans SemiCond;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+
+.mc-btn-submit:hover{
+
+
+}
+
+.mc-exit-secondary{
+	display: inline-block;
+	font-size: 20px;
+	text-decoration: underline;
+	margin-bottom: 20px;
+}
+.mc-exit-secondary:hover{
+	color: red;
+}
+
+
+
+
+@media screen and (min-width: 540px){
+
+	.mc-h1{
+	font-size: 36px;
+	margin-bottom: 10px;
+	}
+
+	#mc_embed_signup{
+	background-size: 200%;
+	padding-top: 150px;
+	}
+
+	.modal-logo{
+		width: 20%;
+	}
+
+	.mc-form{
+		max-width: 90%;
+	}
+
+	.mc-email-address{
+		font-size: 20px;
+	}
+
+	.mc-field-group{
+		width:60%;
+		margin: 0 auto;
+	}
+	
+
+
+
+@media screen and (min-width: 1000px){
+
+	#mc_embed_signup{
+		background-size: 100%;
+		width: 90%;
+		padding-top: 400px;
+		margin-bottom: 200px;
+	}
+
+	.mc-field-group{
+		width:40%;
+		margin: 0 auto;
+	}
+}
+
+
+
+
+
+
